@@ -3,6 +3,15 @@
  * 1. Jangan lupa instal library ArduinoJson 
  * 2. Jangan lupa Instal ESP8266 Board
  * 3. Jangan lupa instal library MFRC522
+ * ================================================
+ * NODEMCU E12-E => MFRC522
+ * D4(GPIO2) => SDA (SS)
+ * D5(GPIO14)=> SCK
+ * D7(GPIO13)=> MOSI
+ * D6(GPIO12)=> MISO(SCL)
+ * GND => GND
+ * D3(GPIO0) => RST (FLASH)
+ * 3.3V => 3.3V
  * ================================================*/
 #include <SPI.h>
 #include <MFRC522.h>
